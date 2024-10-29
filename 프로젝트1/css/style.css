@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Gugi&family=Noto+Sans:ital,wght@0,100..900;1,100..900&display=swap');
+
+body {
+    font-family: "Noto Sans", sans-serif;
+}
+
+h1, h2, h3, h4, .gugi-font {
+    font-family: "Gugi", sans-serif;
+}
+
+/* 내비게이션 영역 */
+.nav-link:hover
+.nav-link.active {
+    color: #ffc107 !important;
+}
+
+header {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.2)), url(../images/main-bg.jpg);
+    background-size: cover;
+    background-position: center top;
+}
+
+#sns-links {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.2)), url(../images/sns-bg.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.card-hover:hover {
+    background-color: #ffc10726;
+    cursor: pointer;
+}
+
+#news {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.8), rgba(0,0,0,0.2)), url(../images/news-bg.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+@media (min-width:768px) and (max-width:1024px) {
+    .text {
+        font-size: 15px;
+    }
+}
